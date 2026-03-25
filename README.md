@@ -120,6 +120,9 @@ Every external service is controlled by a single `"Provider"` config key in `app
 
 ---
 
+<img width="1840" height="784" alt="image" src="https://github.com/user-attachments/assets/af6e2d30-6db1-44bf-8f60-3e64e110f1fd" />
+
+
 ## Project Structure
 
 ```
@@ -319,6 +322,8 @@ The full lifecycle from job creation to dashboard update across five asynchronou
 
 ## AI Integration
 
+<img width="1842" height="846" alt="image" src="https://github.com/user-attachments/assets/2cecb1a9-53e7-4b33-8584-6b5cfc34bd20" />
+
 ### Interface abstraction
 
 The application layer knows only one contract — `IAIProvider`. Swapping Gemini for Azure OpenAI (or any future model) requires zero changes outside the infrastructure layer:
@@ -374,6 +379,14 @@ The parser:
 | Human override | Dispatchers can assign any vendor manually, independent of AI availability |
 
 ---
+
+Service Bus
+<img width="1825" height="756" alt="image" src="https://github.com/user-attachments/assets/2db88a30-2001-40b6-bae8-d11a48449396" />
+<img width="1830" height="809" alt="image" src="https://github.com/user-attachments/assets/cc5702eb-b10b-4db5-8b07-2e8a5bc17a17" />
+
+Redis
+<img width="1514" height="329" alt="image" src="https://github.com/user-attachments/assets/c3014fe8-eb17-4b39-905c-c2091a40e87c" />
+
 
 ## Performance Considerations
 
