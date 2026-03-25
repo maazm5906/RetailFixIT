@@ -451,6 +451,9 @@ For runnable HTTP examples, see `backend/tests.http`.
 
 ## User Roles & Permissions
 
+<img width="1830" height="607" alt="image" src="https://github.com/user-attachments/assets/03a63a40-6d48-4513-b796-7f3acf8d33e9" />
+
+
 | Action | Dispatcher | VendorManager | Admin | SupportAgent |
 |---|:---:|:---:|:---:|:---:|
 | View Dashboard | ✓ | ✓ | ✓ | ✓ |
